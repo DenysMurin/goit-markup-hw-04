@@ -314,15 +314,13 @@ img {
   position: relative;
   overflow: hidden;
 }
-.portfolio{
-  position: relative;
-}
+
 .portfolio-overlay{
-  position: absolute;
+  position: relative;
 }
 
 .overlay-text{
-  /* position: absolute; */
+  position: absolute;
   top: 0;
   font-style: 16px;
   line-height: 1.5;
@@ -340,9 +338,10 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.product:hover .portfolio-overlay{
-  transform: translateY(0%);
+.portfolio-image:hover .overlay-text{
+  transform: translateY(0);
 }
+
 /* !FOOTER */
 .footer {
   background-color: var(--navyblue);
