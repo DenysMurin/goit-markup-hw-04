@@ -25,6 +25,7 @@ a {
   --cloud: #f4f4fd;
   --navybluemodal: #2E2F42·40%;
   --grey: #2e2f42;
+  --grey-70: rgba(46, 47, 66, 0.70));
   --white: #ffffff;
   --dairy: #fcfcfc;
 }
@@ -138,6 +139,9 @@ img {
   /* margin-bottom: 60px; */
   padding: 188px 0;
 }
+
+
+
 .title-one {
   color: var(--white);
   text-align: center;
@@ -284,26 +288,3 @@ img {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
