@@ -52,7 +52,7 @@ h6 {
   margin: 0;
 }
 .container {
-  max-width: 1440px;
+  max-width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -181,7 +181,7 @@ img {
   align-items: center;
   display: block;
   margin: 48px auto 0;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -252,12 +252,36 @@ img {
 }
 .name-item {
   padding: 32px 0;
+ 
 }
 .card-background {
   background-color: var(--white);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .centered {
   text-align: center;
+}
+.card-socials-list{
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+ 
+}
+.card-socials-item{
+  /* margin-top: 20px; */
+}
+.card-socials-icon{
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-color:var(--iris);
+  fill: var(--white);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
 }
 /* OUR PORTFOLIO */
 .portfolio-list {
