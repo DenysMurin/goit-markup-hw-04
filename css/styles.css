@@ -126,12 +126,15 @@ img {
   left: 0;
   bottom: -1px;
   height: 4px;
-  width: 100px;
+  width: 50px;
   background-color: var(--ocean);
   border-radius: 2px;
 }
 .navigation-item {
   padding: 24px 0;
+}
+.hover-move{
+  position: relative;
 }
 
 .address-item {
