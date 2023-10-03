@@ -363,7 +363,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
-  
+
 }
 .white-logo {
   color: var(--cloud);
@@ -374,6 +374,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+  color: var(--white);
+  font-weight: 500;
+  margin-bottom: 16px;
 }
 .footer-socials {
 }
