@@ -364,7 +364,7 @@ img {
 .footer-full {
   display: flex;
   align-items: baseline;
-  /* margin-right: 120px; */
+  margin-right: 120px;
 }
 
 .layot {
