@@ -100,6 +100,7 @@ img {
 .header-text {
   color: var(--slate);
   padding: 24px 0;
+  color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .header-text:hover,
@@ -114,15 +115,26 @@ img {
   letter-spacing: 0.02em;
   display: flex;
   gap: 40px;
-  
 }
-
-
 
 .navigation-item {
   padding: 24px 0;
 }
 
+.accent {
+  position: relative;
+  color: var(--ocean);
+}
+
+.accent::after {
+  position: absolute;
+  content: " ";
+  
+  left: 0;
+  bottom: -1px;
+  height: 4px;background-color: var(--ocean);
+  border-radius: 2px;
+}
 .address-item {
   color: var(--slate);
   font-size: 16px;
@@ -283,8 +295,8 @@ img {
   align-items: center;
   justify-content: center;
   margin-top: 8px;
-}
-.card-socials-icon {
+  height: 100%;
+
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
