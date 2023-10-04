@@ -286,8 +286,6 @@ img {
 
 .card-socials-icon {
   display: flex;
-  /* TODO */
-  height: 100%;
   background-color: var(--iris);
   fill: var(--white);
   border-radius: 50%;
@@ -395,6 +393,9 @@ img {
   color: var(--white);
   font-weight: 500;
   margin-bottom: 16px;
+  
+  margin-right: 120px;
+
 }
 
 .footer-socials-list {
@@ -428,7 +429,4 @@ img {
 .footer-socials-icon:hover,
 .footer-socials-icon:focus {
   background-color: var(--green);
-}
-.forright{
-  margin-right: 120px;
 }
