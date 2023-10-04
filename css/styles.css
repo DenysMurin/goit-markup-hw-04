@@ -286,6 +286,8 @@ img {
 
 .card-socials-icon {
   display: flex;
+  /* TODO */
+  height: 100%;
   background-color: var(--iris);
   fill: var(--white);
   border-radius: 50%;
@@ -362,13 +364,13 @@ img {
 .footer-full {
   display: flex;
   align-items: baseline;
-
-  margin-right: 120px;
+  
 }
 
 .layot {
   display: inline-block;
   margin-bottom: 16px;
+  
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -379,6 +381,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  
 }
 .white-logo {
   color: var(--cloud);
@@ -425,4 +428,9 @@ img {
 .footer-socials-icon:hover,
 .footer-socials-icon:focus {
   background-color: var(--green);
+}
+
+.footer-text-container{
+  margin-right: 120px;
+  max-width: 264px;
 }
